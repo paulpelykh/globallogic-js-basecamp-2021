@@ -1,0 +1,32 @@
+.nameContainer {
+	background-color: white;
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+	text-align: center;
+	padding: 50px 25px;
+}
+.imgContainer {
+	width: 7rem;
+	height: 7rem;
+	overflow: hidden;
+	border-radius: 50%;
+	display: inline-block;
+}
+.portrait {
+	max-height: 100%;
+}
+
+h2 {
+	margin: 20px;
+	font-size: 2rem;
+	font-family: sans-serif;
+	font-weight: normal;
+	color: #383838;
+}
+
+.nameContainer > p {
+	font-family: sans-serif;
+	font-size: 1.2rem;
+	color: #00000085;
+	font-weight: normal;
+}

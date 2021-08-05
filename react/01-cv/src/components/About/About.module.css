@@ -1,0 +1,83 @@
+.section {
+    padding: 35px 30px;
+}
+
+.aboutSection {
+    background-color: #4399fe;
+}
+
+.workSection {
+    background-color: #2982ee;
+}
+
+.contactSection {
+    background-color: #2374d6;
+}
+
+.sectionTitle {
+    border-bottom: 1px solid rgb(143, 181, 252);
+    padding-bottom: 25px;
+    color: white;
+    font-family: sans-serif;
+    font-weight: normal;
+    font-size: 1rem
+}
+
+.bodyText {
+    color: #ffffffD4;
+    font-family: sans-serif;
+    font-size: .9rem;
+    font-weight: lighter;
+    padding-top: 20px;
+    line-height: 2;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #c7e2f1;
+}
+
+a {
+    color: white;
+    transition: .5s ease all;
+}
+a:hover {
+    color: aquamarine;
+    transition: .5s ease all;
+}
+
+.container {
+    width: 85%;
+    max-width: 35rem;
+    background-color: antiquewhite;
+    margin: 2.5rem auto;
+    border-radius: 8px
+}
+
+@media screen and ( min-width: 735px ) {
+    .section {
+        display: flex;
+        justify-content: flex-end;
+        padding: 3.75rem 2rem;
+    }
+
+    .sectionTitle {
+        border-bottom: none;
+        border-right: 1px solid rgb(143, 181, 252);
+        padding-right: 3rem;
+    }
+
+    .bodyText {
+        width: 18rem;
+        padding-top: 0;
+        padding-left: 3rem;
+    }
+
+    .contactSection li {
+        margin: 10px 5px;
+    }
+}   

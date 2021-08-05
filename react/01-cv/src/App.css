@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #c7e2f1;
+}
+
+a {
+    color: white;
+    transition: .5s ease all;
+}
+a:hover {
+    color: aquamarine;
+    transition: .5s ease all;
+}
+
+.container {
+    width: 85%;
+    max-width: 35rem;
+    background-color: antiquewhite;
+    margin: 2.5rem auto;
+    border-radius: 8px
+}
+
+//Media
+@media screen and ( min-width: 735px ) {
+    html {
+        font-size: .9rem;
+    }
+
+    .card-container {
+        margin: 4rem auto;
+    }
+
+    .name-container {
+        padding: 3.75rem 2rem;
+    }
+
+    .section {
+        display: flex;
+        justify-content: flex-end;
+        padding: 3.75rem 2rem;
+    }
+
+    .section-title {
+        border-bottom: none;
+        border-right: 1px solid rgb(143, 181, 252);
+        padding-right: 3rem;
+    }
+
+    .body-text {
+        width: 18rem;
+        padding-top: 0;
+        padding-left: 3rem;
+    }
+
+    .contact-section li {
+        margin: 10px 5px;
+    }
+}   
+
+@media screen and ( min-width: 980px ) {
+    html {
+        font-size: 1rem;
+    }
+} 
+
+@media screen and ( min-width: 1680px ) {
+    html {
+        font-size: 1.5rem;
+    }
+}

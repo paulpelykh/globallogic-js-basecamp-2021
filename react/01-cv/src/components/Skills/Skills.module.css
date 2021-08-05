@@ -1,0 +1,72 @@
+.section {
+    padding: 35px 30px;
+}
+
+.sectionTitle {
+    border-bottom: 1px solid rgb(143, 181, 252);
+    padding-bottom: 25px;
+    color: white;
+    font-family: sans-serif;
+    font-weight: normal;
+    font-size: 1rem
+}
+
+.bodyText {
+    color: #ffffffD4;
+    font-family: sans-serif;
+    font-size: .9rem;
+    font-weight: lighter;
+    padding-top: 20px;
+    line-height: 2;
+}
+
+.highlight {
+    color: rgb(189, 222, 3);
+}
+
+.skillsSection {
+    background-color: #2982ee;
+}
+
+.skillsSection ul {
+    list-style-type: none;
+}
+
+.skillsSection li > p {
+    display: inline-block;
+    padding-left: 10px;
+}
+
+.skillsSection ul > li {
+    margin-top: 10px;
+}
+
+.skillsSection ul > li:first-child {
+    margin-top: 0;
+}
+
+@media screen and ( min-width: 735px ) {
+    .cardContainer {
+        margin: 4rem auto;
+    }
+
+    .section {
+        display: flex;
+        justify-content: flex-end;
+        padding: 3.75rem 2rem;
+    }
+
+    .sectionTitle {
+        border-bottom: none;
+        border-right: 1px solid rgb(143, 181, 252);
+        padding-right: 3rem;
+    }
+
+    .bodyText {
+        width: 18rem;
+        padding-top: 0;
+        padding-left: 3rem;
+    }
+
+} 
+
